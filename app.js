@@ -16,7 +16,7 @@ const config = {
     user: 'rextest',
     database: 'recipebookdb',
     password: 'rex15ac15',
-    port: 5432
+    port: process.env.PORT || 5432
 };
 var pool =new pg.Pool(config);
 //Asign Dust engine to .dust files
