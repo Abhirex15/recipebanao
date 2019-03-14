@@ -5,7 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
-  },
+  }
+  "engines": {
+        "node": "8.9.3"
+},
   "author": "rex",
   "license": "ISC",
   "dependencies": {
